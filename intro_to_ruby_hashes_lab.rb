@@ -7,20 +7,20 @@ actor = {name:"Dwayne The Rock Johnson"}
 end
 
 def monopoly
-	monopoly = {:railroads =>{:pieces => 4},
-	                            :names =>{},
-	                            :Rent_in_dollars => {}
-                              	}
+	monopoly = {
 
 end
 
 def monopoly_with_second_tier
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
+	:railroads =>{:pieces => 4,:names =>{},:Rent_in_dollars => {
 
 end
 
 def monopoly_with_third_tier
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
+	:one_piece_owned => 25
+	                            },{:two_piece_owned =>50},:three_piece_owned =>100,{:four_piece_owned => 200, :names =>{:shortline =>{}
 
 end
 
