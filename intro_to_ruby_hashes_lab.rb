@@ -12,7 +12,7 @@ end
 
 def monopoly_with_second_tier
 	monopoly = {
-	:railroads => {:pieces => 4,:names =>{}},:Rent_in_dollar => {}}
+	:railroads => {:pieces => 4,:names =>{},:Rent_in_dollar => {}}}
 end
 
 def monopoly_with_third_tier
@@ -21,11 +21,11 @@ def monopoly_with_third_tier
 	:railroads =>{:pieces => 4,:names =>{:reading_railroad =>{},
 	          :pennsylvania_railroad =>{}, 
 	          :b_and_o_railroad =>{},
-	          :shortline => {}}},
+	          :shortline => {}},
 	:Rent_in_dollar => {:one_piece_owned => 25,  
 	                    :two_piece_owned =>50,
 	                    :three_piece_owned =>100,
-	                    :four_piece_owned => 200 }}
+	                    :four_piece_owned => 200 }}}
 	
 
 end
@@ -34,10 +34,10 @@ def monopoly_with_fourth_tier
 			monopoly = {:railroads =>{:pieces => 4,:names =>{:reading_railroad =>{:mortgage_value => "$100"},
 	:pennsylvania_railroad =>{:mortgage_value => "$200"},
 	:b_and_o_railroad =>{:mortgage_value => "$400"},
-	:shortline =>{:mortgage_value => "$800"}}},
+	:shortline =>{:mortgage_value => "$800"}},
 	:Rent_in_dollars => {:one_piece_owned => 25,  
 	                    :two_piece_owned =>50,
 	                    :three_piece_owned =>100,
-	                    :four_piece_owned => 200 }}
+	                    :four_piece_owned => 200 }}}
 
 end
