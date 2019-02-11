@@ -7,8 +7,7 @@ actor = {name:"Dwayne The Rock Johnson"}
 end
 
 def monopoly
-	monopoly = {:railroads =>{}}
-
+	monopoly = {:railroads => {}}
 end
 
 def monopoly_with_second_tier
@@ -42,7 +41,7 @@ def monopoly_with_fourth_tier
 	                    :four_piece_owned => 200 },
 	:names =>{
 	:reading_railroad =>{:mortgage_value => "$100"},
-	:pennsylvania_railroad =>{:mortgage_value => "$200"}.
+	:pennsylvania_railroad =>{:mortgage_value => "$200"},
 	:b_and_o_railroad =>{:mortgage_value => "$400"},
 	:shortline =>{:mortgage_value => "$800"}}
 
